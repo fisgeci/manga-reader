@@ -1,0 +1,33 @@
+.mangaContainer {
+    aspect-ratio: 1;
+    height: 50%;
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-template-rows: 3fr 1fr;
+    background-color: blue;
+    place-items: center;
+    cursor: pointer;
+}
+
+.imageContainer {
+    grid-row: 1;
+    width: 100%;
+    height: 100%;
+    background-color: rebeccapurple;
+}
+
+.image {
+    width: 100%;
+    aspect-ratio: 1;
+}
+
+.title {
+    display: grid;
+    width: 100%;
+    height: 100%;
+    text-align: center;
+    place-items: center;
+    background-color: rgba(0, 0, 0, 0.3);
+    grid-row: 2;
+    cursor: pointer;
+}

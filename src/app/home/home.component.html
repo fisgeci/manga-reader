@@ -1,0 +1,12 @@
+<div class="mainPageContainer">
+
+    <div class="title text">
+        Manga Zone
+    </div>
+
+    <div class="mangaListContainer">
+        <div class="item" *ngFor="let manga of mangaList">
+            <app-manga-item [manga]="manga"></app-manga-item>
+        </div>
+    </div>
+</div>

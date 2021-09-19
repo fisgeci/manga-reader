@@ -1,0 +1,22 @@
+.mainPageContainer {
+    background-color: red;
+}
+
+.mangaListContainer {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+    column-gap: 10%;
+}
+
+.title {
+    font-size: 50px;
+    text-align: center;
+    padding: 30px 0 30px 0;
+}
+
+.item {
+    width: 20%;
+    aspect-ratio: 1/1;
+}

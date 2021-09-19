@@ -1,0 +1,13 @@
+<a (click)="navigate()">
+    <div class="mangaContainer">
+        <div class="imageContainer">
+            <img class="image" [src]="imageUrl">
+        </div>
+        <ng-template [ngIf]="title.en" [ngIfElse]="alternateTitles">
+            <p class="title">{{title.en}}</p>
+        </ng-template>
+        <ng-template #alternateTitles>
+            <p class="title">{{altTitles.zh}}</p>
+        </ng-template>
+    </div>
+</a>
